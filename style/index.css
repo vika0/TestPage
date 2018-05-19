@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Font-Regular;
+  src: url("fonts/Quantico-Regular.ttf"); }
+@font-face {
+  font-family: Font-Bold;
+  src: url("fonts/Quantico-Bold.ttf"); }
+@font-face {
+  font-family: Font-BoldItalic;
+  src: url("fonts/Quantico-BoldItalic.ttf"); }
+@font-face {
+  font-family: Font-Italic;
+  src: url("fonts/Quantico-Italic.ttf"); }
+body {
+  margin: 0;
+  background-color: #f0eef2;
+  min-width: 480; }
+
+.header {
+  font-family: Font-Regular;
+  background-color: #4d1ba8;
+  height: 100px;
+  position: relative; }
+
+/*# sourceMappingURL=index.css.map */
