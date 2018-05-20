@@ -186,7 +186,7 @@ ul.navbar li ul{
 }
 
 .content-part p, .content-right form, .content-part p, .content-right form input,
-.content-bottom p{
+.content-bottom p, .content-right form textarea{
     font-family: Font-Regular;
 }
 
@@ -224,16 +224,16 @@ ul.navbar li ul{
     color: #ef4b73;
 }
 
-.content-part .content-right form input[type=textarea]{
-    height:  100px;
-}
-
-.content-part .content-right form input{
+.content-part .content-right form input, .content-part .content-right textarea{
     width: 85%;
     padding: 5px 10px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.content-part .content-right textarea{
+    resize: none;
 }
 
 .content-part .content-right form input[type=submit] {
@@ -250,7 +250,7 @@ ul.navbar li ul{
 .content-part .content-right form p{
     text-align: left;
     margin-bottom: -26px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 /*---------BOTTOM------------*/
@@ -280,7 +280,7 @@ ul.navbar li ul{
     .content-right{
         margin-top: 30px;
     }
-    .content-part .content-right form input{
+    .content-part .content-right form input, .content-part .content-right form textarea{
         width: 95%;
     }
 }
@@ -324,7 +324,7 @@ ul.navbar li ul{
 }
 
 @media only screen and (max-width: 580px) {
-    .content-part .content-right form input{
+    .content-part .content-right form input,  .content-part .content-right form textarea{
         width: 85%;
     }
     .footer .navbar li{

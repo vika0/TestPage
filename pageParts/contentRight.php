@@ -19,7 +19,7 @@
                 <br>
                 <p>Your message</p>
                 <br>
-                <input rows="5" type="textarea" align="left" name="message" placeholder="Type your message here">
+                <textarea  rows="5" align="left" name="message" placeholder="Type your message here"></textarea>
                 <br><br>
                 <input type="submit" value="Submit">
             </form> 
